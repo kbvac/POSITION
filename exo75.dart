@@ -26,7 +26,7 @@ class Famille{
 
 class F_Fake extends Famille{
   String nom_fdp ="Gasst Le fdp";
-  int age_fdp =11;
+  int age_fdp =13;
   F_Fake(String nom_prenom,int age_,String nom_fdp,int age_fdp ):super(nom_prenom,age_){}
   
   @override
