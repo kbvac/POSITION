@@ -18,7 +18,7 @@
             </ul>
             <a href="#" id="sub">S'INSCRIRE</a>
       </header>
-      <section>
+      <section id="banner">
             <img src="./img/bgHeader.png" alt="">
             
             <div id="grid-container">
@@ -29,7 +29,7 @@
                     <div class="profile-name">photo name</div>
                 </div>
                 <div class="img"></div>
-                <div class="btnform"><a id="btn" href="">rejoindre</a></div>
+                <div class="btnform"><a id="btn" href="#">rejoindre</a></div>
             </div>
 
             <div class="post">
@@ -38,7 +38,7 @@
                     <div class="profile-name">photo name</div>
                 </div>
                 <div class="img"></div>
-                <div class="btnform"><a href="" id="btn">rejoindre</a></div>
+                <div class="btnform"><a href="#" id="btn">rejoindre</a></div>
             </div>
 
             <div class="post">
@@ -50,7 +50,7 @@
                 <div class="btnform"><a id="btn" href="">rejoindre</a></div>
             </div>
             </div>
-            <span class="iconify" href="" id="arrow" data-icon="dashicons:arrow-up-alt2" style="color: white;" data-width="70" data-height="70" data-rotate="180deg"></span>
+            <span class="iconify" href="#" id="arrow" data-icon="dashicons:arrow-up-alt2" style="color: white;" data-width="70" data-height="70" data-rotate="180deg"></span>
       </section>
       <section id="discover">
             <span id="product-title">NOS OFFRES</span>
@@ -66,7 +66,7 @@
                               <li class="no">Systèmes 60/40</li>
                               <li>Promotion Diverse</li>
                         </ul>
-                        <div id="price">GRATUIT</div>
+                        <div id="price"><a href="">GRATUIT</a></div>
                   </div>
                   <div id="offer">
                         <span id="offer-title">SERVICE <span>ORGANISATEUR</span></span>
@@ -77,7 +77,7 @@
                               <li>Systèmes 60/40</li>
                               <li>Promotion Diverse(Payant)</li>
                         </ul>
-                        <div id="price">GRATUIT</div>
+                        <div id="price"><a href="">GRATUIT</a></div>
                   </div>
                   <div id="offer">
                         <span id="offer-title">SERVICE <span>PREMIUM</span></span>
@@ -88,11 +88,11 @@
                               <li>Systèmes 70/30</li>
                               <li>Promotion Diverse</li>
                         </ul>
-                        <div id="price">OBTENIR</div>
+                        <div id="price" href=""><a href="#">OBTENIR</a></div>
                   </div>
 
             </div>
-            <span id="details">PLUS</span>
+            <a id="details" href="#">PLUS</a>
       </section>
       <section id="news"></section>
       <footer id="footer"></footer>
