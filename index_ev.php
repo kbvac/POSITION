@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>EVENT</title>
 	<link rel="stylesheet" type="text/css" href="css.css">
+	
 </head>
 <body>
 	<!--le div contenant les div droit et gauche-->
