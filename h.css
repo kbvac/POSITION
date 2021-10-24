@@ -1,0 +1,144 @@
+/*forme de  boite qui contient le contenu les checboxs label et button*/
+main{
+    box-shadow: 1px 6px 17px gray;
+    width: 600px;
+    height: 300px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-family: serif;
+    position: relative;
+    top: 10px;
+    padding: 5px;
+    left: 350px;
+   
+}
+/*première lettre des labels*/
+p::first-letter{
+    color: red;
+    text-transform: uppercase;
+    
+}
+/*utiliser pour le texte*/
+label{
+      font-size: 1.5rem;
+      color: black;
+      position: relative;
+      top: 0px;
+      
+}
+/*class des labels oui et non*/
+.ray{position: relative;
+    top: 10px;
+    font-size: 1rem;
+    right: 10px;
+}
+/* input pour les checkbox*/
+input{
+       position: relative;
+       top:10px;
+       right: 100px;
+}
+/*class du label la note*/
+.b{
+    position: relative;
+    right: 10px;
+}
+#port{
+    position: relative;
+    left: 10px;
+    bottom:  10px;
+}
+/*button valider*/
+button{
+        position: absolute;
+        top: 275px;
+        width: 110px;
+        height: 27px;
+        letter-spacing: 1px;
+        color: red;
+        font-family: 'serif';
+        font-size: 1.2rem;
+        box-shadow: 5px 3px 0 gray;
+        border-radius: 22px;
+        right: 250px;
+}
+/*identifiant du premier main*/
+#main{
+       border-top-right-radius: 22px;
+       border-top-left-radius: 22px;
+       
+}
+/*identifiant 6 eme checkbox''''''''''''par le haut*/
+#beni{
+        position: absolute;
+        left: 213px;
+        top: 120px;
+}
+/*class du 7 eme checkbox''''''''''''''par le haut*/
+.beni{
+    position: absolute;
+    left: 213px;
+    top: 150px;
+}
+}
+}
+#roi{
+    position: relative;
+    left: 50px;
+    
+}
+/*identifiant avant dernier checkbox*/
+#semba{
+    position: absolute;
+    left: 213px;
+    top: 180px;
+}
+/*identifiant du dernier checkbox*/
+#lion{
+    position: absolute;
+    left: 213px;
+    top: 210px;
+}
+#paris{
+        border-bottom-left-radius: 22px;
+        border-bottom-right-radius: 22px;
+}
+/*class de la première icon en haut*/
+.kevine{
+         position: absolute;
+         top: 0px;
+         left: 285px;
+}
+/*identifiant du premier checkbox en commencant pas le haut */
+#poi{
+    position: relative;
+      right: 17px;
+}
+/*class du deuxieme et 4 ème checkbox en commencant toujours par le haut*/
+.poi{
+      position: relative;
+      right: 15px;
+}
+/*class des deux premiers label*/
+.avez{
+       position: relative;
+       top: 20px;
+
+}
+/* class des 2 eme icon en bas */
+.koffi{
+         position: relative;
+         left: 10px;
+         top: 0px;
+         bottom: 20px;
+}
+/*identifiant 4 eme checbox '''''''''''''''''''''''''''''''''par le haut*/
+#quen{
+    position: relative;
+    right: 17px;
+}
+/*identifiant 5 éme checkbox*/
+#yao{
+       position: relative;
+       right: 70px;
+}
