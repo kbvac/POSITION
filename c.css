@@ -1,0 +1,127 @@
+/*corps du programme*/
+body{
+       position: absolute;
+       width: 100%;
+       height: 100%;
+       background: url(./img/colton-sturgeon-08QCXxzWsiQ-unsplash.jpg) top left no-repeat;
+}
+
+/*le main est une boite qui va servit de receptacle au formulaire a droite et a l image a gauche j ai utilisé 2 main*/
+main{
+       box-shadow: 1px 6px 17px gray;
+       width: 350px;
+       height: 400px;
+       text-align: center;
+       letter-spacing: 2px;
+       font-family: serif;
+      
+}
+/*la class du div qui englobe le main et le formulaire*/
+.container{
+            position: relative;
+           
+}
+/*class du main qui contient le formulaire*/
+.ab{
+      position: absolute;
+      top: 110px;
+      right: 300px;
+      background-color: rgba(255,255,255,0.2);
+}
+/*class du main qui contient l image a gauche*/
+.nt{
+    position: absolute;
+    top: 110px;
+    right: 650px;
+   
+}
+/*première lettre du titre du formulaire*/
+p::first-letter{
+    color: red;
+    text-transform: uppercase;
+    
+}
+/*l'input du formulaire*/
+input{
+       width: 300px;
+       text-align: center;
+       height: 30px;
+       border-radius: 22px;
+       
+       
+      
+       
+}
+/*class de l'input mot de pass*/
+.ya{
+     position: absolute;
+     top: 130px;
+     right: 20px;
+}
+/*lien mot de pass oublié*/
+a{
+    text-decoration: none;
+    font-size: 15px;
+    color: red;
+}
+/*button de connexion */
+button{
+        background: rgb(4, 68, 4);
+        color: blanchedalmond;
+        width: 250px;
+        border-radius: 22px;
+        height: 30px;
+}
+/*class du button inscription*/
+.o{
+     background: black;
+}
+/*utiliser pour les labels*/
+label{
+      
+       width: 70px;
+       background: rgb(255, 255, 255);height: 20px;width: 100px;
+       margin: 20px;
+       height: 50px;
+       border: 2px solid black ;
+       border-radius: 22px;
+}
+
+/*class image a gauche*/
+.au{
+      position: absolute;
+      left: 350px;
+      top: 95px;
+}
+
+
+/*identifiant icon enveloppe premier input*/
+#fa{
+       position: absolute;
+       top: 110px;
+       right: 300px;
+}
+/*identifiant icon cadenat deuxieme input*/
+#of{
+       position: absolute;
+       top: 10px;
+       right: 280px;
+}
+.btn{
+       box-shadow: 2px 2px 5px -4px rgba(0,0,0,0.75);
+       width: 100%;
+       height: 40px;
+}
+/*class du logo facebook*/
+.l{
+       position: absolute;
+       top: 350px;
+       right: 200px;
+}
+/*class du logo google*/
+.p{
+       position: relative;
+       top: 10px;
+       left: 30px;
+      
+}
