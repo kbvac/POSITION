@@ -233,8 +233,7 @@ section{
 /*vali la zone grise a toi de la modifier pour inserer ton formulaire elle a pour id news a toi de jouer*/
 /*j'ai pas encore gerer les media queries ducoup il est possibles que l'affichage soit diforme chez vous tout dependra de la taille de votre écran (ps:desolé pour les fautes d'orthographe)
 /* Kacou met ton code ici stp */
-
-
+/*debut de la page event*/
 body{
 	background-color:rgba(0,0,0,0.01);
 }
