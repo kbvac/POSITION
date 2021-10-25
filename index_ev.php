@@ -1,25 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>EVENT</title>
-	<link rel="stylesheet" type="text/css" href="css_
-ev.css">
-	
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 	<!--le div contenant les div droit et gauche-->
    
-   	<!--div gauche contenant les onglets -->
+
    	<div>
+   		   	<!--div gauche contenant les onglets -->
 	 <div class="left">
 	 	
 	 	<br><center><label class="n1">M</label><label class="n2">-ONGLETS</label></center><br><br><br><br><br>
-	 	
+	 	<!-- des tableau d'une ligne deux colonnes celles de gauche contiennent les icones celles de droitr les textes -->
 	 	
 	 	<table class="Tbl1">
 	 		<tr>
 	 	       <td><img width="40px" src="icone/i2_0.jpg.png"/></td>
-	 	       <td class="EV">  EVENEMENT</td>
+	 	       <td class="EV">  Evenement</td>
 	 	    </tr>
 	 	</table>
 	 	
@@ -27,7 +26,7 @@ ev.css">
 	 	<table class="Tbl2">
 	 		<tr>
 	 	      <td ><img src="icone/direct.png"/></td>
-	 	      <td >EN DIRECT</td>
+	 	      <td >En direct</td>
 	 	    </tr>
 	   </table>
 	 	
@@ -35,7 +34,7 @@ ev.css">
 	 	<table class="Tbl3">
 	 		<tr>
 	 	      <td ><img  src="icone/ajout.png"/></td>
-	 	      <td >AJOUTER</td>
+	 	      <td >Ajouter</td>
 	 	    </tr>
 	   </table>
 	 	
@@ -43,7 +42,7 @@ ev.css">
 	 	<table class="Tbl4">
 	 		<tr>
 	 	      <td ><img src="icone/promo3.jpg"/></td>
-	 	      <td >PROMOTION</td>
+	 	      <td >Promotion</td>
 	 	    </tr>
 	   </table>
 	 	
@@ -51,7 +50,7 @@ ev.css">
 	 	<table class="Tbl5">
 	 		<tr>
 	 	      <td ><img src="icone/PROP.png"/></td>
-	 	      <td >A PROPOS</td>
+	 	      <td >A propos</td>
 	 	    </tr>
 	   </table>
 	 
@@ -63,13 +62,22 @@ ev.css">
 
 <div class="right">
 	<!--div contenant le formulaire les boutons participer-->
- <div class="b1"> <label class="b">Badge</label> <button>Participer</button> </div>
- <div class="b2"> <label class="b">Badge</label> <button>Participer</button> </div>
- <div class="b3"> <label class="b">Badge</label> <button>Participer</button> </div>
- <div class="b4"> <label class="b">Badge</label> <button>Participer</button> </div>
- <div class="b5"> <label class="b">Badge</label> <button>Participer</button> </div>
+ <div class="b1"> <label class="b">Badge4</label> <button>Participer</button> </div>
+ <div class="b2"> <label class="b">Badge5</label> <button>Participer</button> </div>
+ <div class="b3"> <label class="b">Badge3</label> <button>Participer</button> </div>
+ <div class="b4"> <label class="b">Badge2</label> <button>Participer</button> </div>
+ <div class="b5"> <label class="b">Badge1</label> <button>Participer</button> </div>
+ <div class="b6"> <label class="b">Badge6</label> <button>Participer</button> </div>
+ <div class="b7"> <label class="b">Badge7</label> <button>Participer</button> </div>  
+ <div class="b8"> <label class="b">Badge8</label> <button>Participer</button> </div>  
+ <div class="b9"> <label class="b">Badge9</label> <button>Participer</button> </div>  
+
+ 
+ 
+
  <!--div des plans populaires-->
-       <div class="b6"><b><label class="plans"><center>LES PLANS POPULAIRES</center></label></b>
+       <div class="Plan_popul"><b><label class="plans"><center>LES PLANS POPULAIRES</center></label></b>
+
 
             <div class="p1"></div>
             <div class="p2"></div>
@@ -79,36 +87,27 @@ ev.css">
             <div class="p6"></div>
             <div class="p7"></div>
       </div>
-<!--div de la photo de profil-->
+<header class="haut">
+	<!--div de la photo de profil-->
 <div class="profil">
-	<div class="logo"></div>
+	<div class="photo_profil"></div>
 	<div class="t1"></div>
 	<div class="t2"></div>
 	<div class="t3"></div>
 
 </div>
-	
-<!--les boutons de navigation-->
-	<div class="bnav2"><center><p></p></center></div>
-	<div class="bnav3"><center><p></p></center></div>
-	<div class="bnav4"><center><p>1</b></center></div>
-	<div class="bnav5"><center><p>2</p></center> </div>
-	<div class="bnav6"><center><p>3</p></center></div>
-	<div class="bnav7"><center><p></p></center></div>
-	<div class="bnav8"><center><p></p></center></div>
-
 <!--formulaire contenant les balise select-->
 <form>
 	
-	<label ><b>SELECTIONNER LA ZONE :&nbsp;</b></label>  
+	<label ><b>Selectionner la zone :&nbsp;</b></label>  
 	<select >
 		<option>Côte d'ivoire</option>
 	</select>
-	<Label ><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TIMELINE :&nbsp;</b></Label>
+	<Label ><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Timeline :&nbsp;</b></Label>
 	<select >
 		<option>Aujourd'hui</option>
 	</select>
-	<Label ><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TARIF :&nbsp;</b></Label><select >
+	<Label ><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tarif :&nbsp;</b></Label><select >
 		<option>3000-15000 F CFA</option>
 	
 	</select>
@@ -119,11 +118,12 @@ ev.css">
     <div class="search_wrap search_wrap_5">
 			<div class="search_box">
 				<input type="text" class="input" placeholder="search..." maxlength="28">
-				<input type="submit" class="btn" placeholder="search" value="Rechercher">
+				<input  class="btn" type="button" value="Chercher">
 			</div>
     </div>
+</header>
+    
 </div>
 </div>
-				
 </body>
 </html>
